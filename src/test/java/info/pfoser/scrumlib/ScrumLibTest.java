@@ -10,7 +10,7 @@ public class ScrumLibTest {
     @Test
     public void shouldCalculateFibonacci13() {
         ScrumLib scrumlib = new ScrumLib();
-        int expected = 13;
+        int expected = 14;
         int actual = scrumlib.nextFibonacci(5, 8);
         assertThat(actual, is(expected));
     }
