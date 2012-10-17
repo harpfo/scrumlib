@@ -11,7 +11,7 @@ public class ScrumLibTest {
     public void shouldCalculateFibonacci13() {
         ScrumLib scrumlib = new ScrumLib();
         int expected = 13;
-        int actual = scrumlib.nextFibonacci(5, 8);
+        int actual = scrumlib.nextFibonacci(5, 9);
         assertThat(actual, is(expected));
     }
  
